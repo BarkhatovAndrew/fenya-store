@@ -1,0 +1,86 @@
+.basket {
+  display: flex;
+
+  .basket-items {
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  .total-item-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+
+    input {
+      padding-left: 10px;
+      height: 45px;
+      border-radius: 5px;
+      width: 100%;
+      border: 1px solid rgb(211, 211, 211);
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    a {
+      align-self: center;
+      margin-top: 5px;
+    }
+
+    button {
+      height: 45px;
+      width: 100%;
+    }
+
+    .login-btn {
+      background-color: rgb(4, 126, 203);
+      transition: 0.2s;
+      margin-bottom: 5px;
+    }
+
+    .login-btn:hover {
+      background-color: rgb(11, 106, 165);
+    }
+  }
+
+  .basket-pay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 430px;
+    width: 490px;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
+    .empty-btn {
+      margin-top: 30px;
+    }
+
+    .regular-btn a {
+      width: 100%;
+      color: white;
+      text-decoration: none;
+    }
+
+    .promo-btn {
+      margin-bottom: 20px;
+      transition: 0.2s;
+      margin-top: 5px;
+      border: none;
+      border-radius: 5px;
+      width: 100%;
+      background-color: rgb(233, 232, 232);
+      color: black;
+    }
+
+    .promo-btn:hover {
+      background-color: rgb(218, 217, 217);
+    }
+  }
+}

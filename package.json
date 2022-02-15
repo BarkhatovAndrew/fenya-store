@@ -1,0 +1,20 @@
+{
+  "name": "fenya-store",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msmarielos/fenya-store.git"
+  },
+  "license": "ISC",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "start:client": "npm run start --workspace=client",
+    "start:server": "npm run dev --workspace=server",
+    "format": "npm run format --workspaces --if-present"
+  }
+}

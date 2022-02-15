@@ -1,0 +1,36 @@
+.review-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  align-self: center;
+
+  textarea {
+    resize: none;
+    height: 100px;
+    margin-top: 5px;
+    padding: 10px;
+  }
+
+  input {
+    height: 40px;
+    padding: 10px;
+  }
+
+  button {
+    margin-top: 5px;
+  }
+
+  input,
+  textarea {
+    width: 500px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 5px;
+  }
+
+  span {
+    margin-top: 10px;
+  }
+  h5 {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,11 @@
+.animals-board {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .add-animal-btn {
+    width: 300px;
+  }
+}

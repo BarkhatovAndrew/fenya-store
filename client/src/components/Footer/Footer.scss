@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  height: 100px;
+
+  border-top: 1px solid rgb(220, 220, 220);
+  margin-top: 50px;
+  .footer-nav {
+    a {
+      text-decoration: none;
+      margin-right: 30px;
+    }
+  }
+
+  .footer-social {
+    svg {
+      margin-left: 15px;
+      transition: 0.2s;
+      cursor: pointer;
+    }
+
+    svg:hover {
+      color: rgb(255, 89, 0);
+    }
+  }
+}

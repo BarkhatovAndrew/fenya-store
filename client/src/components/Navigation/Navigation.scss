@@ -1,0 +1,22 @@
+nav {
+  .container {
+    a {
+      align-self: center;
+      margin-bottom: 15px;
+    }
+
+    a:nth-last-child(2) {
+      margin-left: 280px;
+    }
+
+    .container {
+      height: 60px;
+      justify-content: flex-start;
+      display: flex;
+    }
+
+    .active-link {
+      color: #ff6929;
+    }
+  }
+}

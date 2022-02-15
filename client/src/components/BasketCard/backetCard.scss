@@ -1,0 +1,56 @@
+.basket-card {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+  .second-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+  }
+
+  .first-row {
+    display: flex;
+  }
+
+  .del-btn {
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    border-radius: 3px;
+  }
+
+  .plus-btn,
+  .minus-btn {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(238, 238, 238);
+  }
+
+  .plus-btn:hover,
+  .minus-btn:hover,
+  .del-btn:hover {
+    background-color: rgb(193, 193, 193);
+  }
+
+  .price {
+    font-size: 25px;
+  }
+
+  .item-count {
+    font-size: 20px;
+    margin: 0 5px;
+  }
+
+  img {
+    width: 100px;
+  }
+
+  .item-title {
+    width: 300px;
+  }
+}

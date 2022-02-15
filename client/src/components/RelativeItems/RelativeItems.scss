@@ -1,0 +1,19 @@
+.relative-item-list {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .relative-item {
+    width: 15%;
+    margin: 10px;
+
+    img {
+      width: 150px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}

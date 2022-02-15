@@ -1,0 +1,16 @@
+.admin-nav {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  width: 200px;
+
+  .admin-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    margin: 5px 0 0 10px;
+    text-decoration: none;
+  }
+}

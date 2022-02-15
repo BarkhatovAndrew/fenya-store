@@ -1,0 +1,51 @@
+.admin-panel {
+  width: 1200px;
+
+  .all-items-admin {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      margin-top: 25px;
+      text-align: center;
+    }
+  }
+
+  h2 {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .admin-container {
+    display: flex;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+
+  li {
+    margin: 5px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: flex-end;
+    width: 200px;
+    border: 1px solid rgb(203, 203, 203);
+    flex-direction: column;
+
+    button {
+      width: 150px;
+      align-self: center;
+      justify-self: flex-end;
+      margin-top: 5px;
+    }
+
+    a {
+      align-self: center;
+      margin-top: auto;
+    }
+  }
+}

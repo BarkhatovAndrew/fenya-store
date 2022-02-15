@@ -1,0 +1,40 @@
+.basket-hover {
+  position: absolute;
+  width: 500px;
+  background-color: #fff;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  right: 140px;
+  top: 0px;
+  z-index: 1;
+
+  .basket-hover-item {
+    border-bottom: 1px solid rgb(216, 216, 216);
+    margin: 10px 0;
+    display: flex;
+
+    p {
+      margin-left: 15px;
+      color: black;
+    }
+
+    img {
+      width: 50px;
+    }
+  }
+
+  .basket-hover-item:last-child {
+    border-bottom: none;
+  }
+
+  h4,
+  span {
+    color: black;
+  }
+}
